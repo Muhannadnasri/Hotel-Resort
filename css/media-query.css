@@ -143,9 +143,7 @@
     .impx-contact {
         height: 320px !important;
     }
-    #impx-gmap, #impx-contact-gmap {
-        height: 320px !important;   
-    }
+    
     .impx-services-list {
         margin-top: -100px !important;
     }
@@ -498,11 +496,7 @@
     .impx-contact {
         height: 520px;
     }
-    #impx-gmap, #impx-contact-gmap {
-        height: 520px;
-        min-height: 90%;
-        max-width: 100%;
-    }
+ 
     .about-highlight img {
         position: relative;
         bottom: 20px;
@@ -797,11 +791,6 @@
     .impx-contact {
         height: 325px;
     }
-    #impx-gmap, #impx-contact-gmap {
-        height: 325px;
-        min-height: 90%;
-        max-width: 100%;
-    }
     .about-highlight img {
         position: relative;
         bottom: -53px;
@@ -1021,12 +1010,7 @@
     .impx-contact {
         height: 520px;
     }
-    #impx-gmap, #impx-contact-gmap {
-        position: relative;
-        min-height: 90%;
-        height: 520px;
-        max-width: 100%;
-    }
+
     .impx-section-rooms {
         height: 100%;
         background-size: 100% 100%;
@@ -1474,12 +1458,7 @@
     .impx-contact {
         height: 580px;
     }
-    #impx-gmap, #impx-contact-gmap {
-        position: relative;
-        min-height: 90%;
-        height: 580px;
-        max-width: 100%;
-    }
+
     .impx-section-rooms {
         height: 100%;
         background-size: 100% 100%;
@@ -1822,7 +1801,5 @@
     .impx-contact {
         height: 520px;
     }
-    #impx-gmap, #impx-contact-gmap {
-        height: 520px;
-    }
+
 }
