@@ -26,9 +26,9 @@
 	    },
 
 
-	    //----------- 2. To top Jquery ----------- 
+	    //----------- 2. To top Jquery -----------
 		template_toTop:function() {
-		   
+
 			$(document).scroll(function () {
 				var toTop = $('.to-top');
 
@@ -47,14 +47,14 @@
       	 TemplateApp.template_gmap2();
       	 TemplateApp.template_toTop();
       }
-		
+
 	}//end themeApp
-	
-	
+
+
 	jQuery(document).ready(function($){
-	   	   
+
 		TemplateApp.theme_init();
 
     });
-	
+
 })(jQuery);
