@@ -208,6 +208,9 @@ h6.uk-article-title  {
 .impx-text-white {
 	color: #ffffff !important;
 }
+.impx-text-dark {
+	color: black !important;
+}
 .impx-text-gray {
 	color: #dadada !important;
 }
@@ -608,17 +611,8 @@ h6.uk-article-title  {
 	display: block;
  	background-color: rgba(0, 0, 0, 0.3);
 }
-.impx-overlay.light {
- 	background-color: rgba(0, 0, 0, 0.2);
-}
-.impx-overlay.dark {
- 	background-color: rgba(0, 0, 0, 0.5);
-}
 .impx-overlay.darker {
  	background-color: rgba(0, 0, 0, 0.65);
-}
-.impx-overlay.darkest {
- 	background-color: rgba(0, 0, 0, 0.85);
 }
 .impx-overlay.overlay-outline {
 	border-radius: 50%;

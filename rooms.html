@@ -15,6 +15,12 @@
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
         <!-- Google Fonts -->
        	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
        	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
@@ -102,7 +108,7 @@
 
 		<!-- PAGE HEADING -->
 		<div class="impx-page-heading uk-position-relative rooms">
-			<div class="impx-overlay dark"></div>
+			<div class="impx-overlay darker"></div>
 			<div class="uk-container">
 				<div class="uk-width-1-1">
 					<div class="uk-flex uk-flex-left">
@@ -210,7 +216,7 @@
 										    <div class="uk-inline">
 										    	<label class="uk-form-label">Email</label>
 										    	<span class="uk-form-icon" data-uk-icon="icon: mail"></span>
-										        <input class="uk-input booking-email uk-border-rounded" type="text" placeholder="your e-mail">
+										        <input class="uk-input booking-email uk-border-rounded" type="text" placeholder="your e-mail" required>
 										    </div>
 									    </div>
 								    </div>
@@ -219,7 +225,7 @@
 										    <div class="uk-inline">
 										    	<label class="uk-form-label">Arrival</label>
 										    	<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
-										        <input class="uk-input booking-arrival uk-border-rounded" type="text" placeholder="m/dd/yyyy">
+										        <input class="uk-input booking-arrival uk-border-rounded" type="text" placeholder="m/dd/yyyy" required>
 										    </div>
 										</div>
 									</div>
@@ -228,33 +234,33 @@
 										    <div class="uk-inline">
 										    	<label class="uk-form-label">Departure</label>
 										    	<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
-										        <input class="uk-input booking-departure uk-border-rounded" type="text" placeholder="m/dd/yyyy">
+										        <input class="uk-input booking-departure uk-border-rounded" type="text" placeholder="m/dd/yyyy" required>
 										    </div>
 									    </div>
 									</div>
 									<div class="uk-margin">
 									    <div class="uk-form-controls uk-position-relative">
-									    	<label class="uk-form-label" for="form-guest-select">Guest</label>
+									    	<label class="uk-form-label" for="form-guest-select">Adults</label>
 									    	<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
-								            <select class="uk-select uk-border-rounded" id="form-guest-select">
+								            <select class="uk-select uk-border-rounded" id="form-guest-select" required>
 								                <option value="">Please select...</option>
 								                <option value="1">1</option>
-												<option value="2">2</option>
-												<option value="3">3</option>
-												<option value="4">4</option>
+        												<option value="2">2</option>
+        												<option value="3">3</option>
+        												<option value="4">4</option>
 								            </select>
 									    </div>
 									</div>
 									<div class="uk-margin">
 									   <div class="uk-form-controls uk-position-relative">
-									    	<label class="uk-form-label" for="form-rooms-select">Rooms</label>
-									    	<span class="uk-form-icon select-icon" data-uk-icon="icon: album"></span>
-								            <select class="uk-select uk-border-rounded" id="form-rooms-select">
-								                <option value="">Please select...</option>
-								                <option value="room_1">Single</option>
-												<option value="room_2">Double</option>
-												<option value="room_3">Primier</option>
-												<option value="room_4">Deluxe</option>
+									    	<label class="uk-form-label" for="form-rooms-select">Children</label>
+									    	<span class="uk-form-icon select-icon" data-uk-icon="icon: happy"></span>
+								            <select class="uk-select uk-border-rounded" id="form-rooms-select" required>
+                              <option value="">Please select...</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
 								            </select>
 									    </div>
 									</div>
@@ -274,22 +280,11 @@
 							    <li>
 							    	<div data-uk-grid class="uk-grid-medium">
 								    	<div class="uk-width-auto">
-									    	<i class="fa fa-cutlery fa-2x impx-text-aqua"></i>
-									    </div>
-									    <div class="uk-width-expand">
-									    	<h6 class="uk-margin-remove">In-house Restaurant</h6>
-									    	<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet agendum esse natos. Quam tu ponis in verbis ego</p>
-									    </div>
-									</div>
-							    </li>
-							    <li>
-							    	<div data-uk-grid class="uk-grid-medium">
-								    	<div class="uk-width-auto">
 									    	<i class="fa fa-asterisk fa-2x impx-text-aqua"></i>
 									    </div>
 									    <div class="uk-width-expand">
-									    	<h6 class="uk-margin-remove">Spa</h6>
-									    	<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet agendum esse natos. Quam tu ponis in verbis ego</p>
+									    	<h6 class="uk-margin-remove">Access Aquaventure Waterpark</h6>
+									    	<p class="uk-margin-remove-bottom uk-margin-small-top">All Room and Suite guests receive a complimentary one day pass to Aquaventure Waterpark for each night's stay.</p>
 									    </div>
 									</div>
 							    </li>
@@ -299,8 +294,8 @@
 									    	<i class="fa fa-paw fa-2x impx-text-aqua"></i>
 									    </div>
 									    <div class="uk-width-expand">
-									    	<h6 class="uk-margin-remove">Outdoor</h6>
-									    	<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet agendum esse natos. Quam tu ponis in verbis ego</p>
+									    	<h6 class="uk-margin-remove">Kids Club Access</h6>
+									    	<p class="uk-margin-remove-bottom uk-margin-small-top">Let the little ones unleash their imagination at Atlantis Kids Club, where they can play, create and explore.</p>
 									    </div>
 									</div>
 							    </li>
@@ -310,8 +305,8 @@
 									    	<i class="fa fa-heart fa-2x impx-text-aqua"></i>
 									    </div>
 									    <div class="uk-width-expand">
-									    	<h6 class="uk-margin-remove">Gym</h6>
-									    	<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet agendum esse natos. Quam tu ponis in verbis</p>
+									    	<h6 class="uk-margin-remove">Marvel At The Lost Chamber Aquarium</h6>
+									    	<p class="uk-margin-remove-bottom uk-margin-small-top">Meet the 65,000 residents of the Atlantean Ruins, you'll receive a complimentary pass with every night's stay. </p>
 									    </div>
 									</div>
 							    </li>
@@ -325,26 +320,26 @@
 				</div>
 			</div>
 		</div>
-		<!-- CONTENT END -->
+
+
 
 		<!-- CONTACT INFO -->
-		<div class="pre-footer-contact uk-padding bg-img2 uk-position-relative">
-			<div class="impx-overlay dark"></div>
+		<div class="pre-footer-contact uk-padding uk-position-relative">
+			<div class="impx-overlay darker"></div>
 			<div class="uk-container">
 
 				<div data-uk-grid class="uk-padding-remove-bottom uk-position-relative">
 					<div class="uk-light uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-3@s"><!-- address -->
 						<h5 class="uk-heading-line uk-margin-remove-bottom"><span>Address</span></h5>
-						<p class="impx-text-large uk-margin-top">Jln. Raya Kemerderkaan RI No. 17<br/>Indonesia Raya</p>
+						<p class="impx-text-large uk-margin-top">Atlantis Dubai, Crescent Road, The Palm<br/>Dubai, United Arab Emirates </p>
 					</div>
 					<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-3@s"><!-- phone -->
 						<h5 class="uk-heading-line uk-margin-bottom"><span>Phone</span></h5>
-						<p class="impx-text-large uk-margin-remove">+62 123456789<br/>+62 987456123</p>
+						<p class="impx-text-large uk-margin-remove">+971 4 426 2000 (24 hours) </p>
 					</div>
 					<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-3@s"><!-- email -->
 						<h5 class="uk-heading-line uk-margin-bottom"><span>Email</span></h5>
-						<a href="mailt:#" class="impx-text-large">cs@sativa-html.com</a><br/>
-						<a href="mailt:#" class="impx-text-large">info@sativa-html.com</a>
+						<a href="mailto:info@atlantisthepalm.com" class="impx-text-large">info@atlantisthepalm.com</a><br/>
 					</div>
 				</div>
 
@@ -361,7 +356,7 @@
               <!-- Footer Logo -->
               <img src="images/logo.png" alt="" class="">
               <!-- Site Copyright -->
-              <p class="impx-copyright">&copy; 15374 MuhannadNasri</p>
+              <p class="impx-copyright">&copy;Copyright 15374 MuhannadNasri</p>
             </div>
           </div>
         </div>
@@ -374,6 +369,7 @@
     <script src="js/jquery.js"></script>
       <!-- https://getuikit.com/-->
       <script src="js/uikit.min.js"></script>
+      <!-- uikit Icons -->
       <script src="js/uikit-icons.min.js"></script>
       <!-- https://pixelcog.github.io/parallax.js/-->
       <script src="js/parallax.min.js"></script>
@@ -383,6 +379,8 @@
       <script src="js/date-config.js"></script>
       <!-- Website Js -->
       <script src="js/template-config.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     </body>
 
 
