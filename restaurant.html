@@ -32,62 +32,79 @@
 		<header id="impx-header">
 			<div>
 				<div class="impx-menu-wrapper style2">
-		            <!-- Top Header -->
-					<div class="impx-top-header">
-						<div class="uk-container uk-container-expand">
+          <!-- Top Header -->
+    <div class="impx-top-header">
+      <!-- block element to give it a max-width and wrap the main content  + limit the container width-->
+      <div class="uk-container uk-container-expand">
+        <!-- to create the cells -->
+        <div class="uk-grid">
+          <!-- header phone -->
+          <!-- The element takes up halves of its parent container. -->
+          <div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+            <div class="impx-top-phone">
+              <p><i class="fa fa-phone"></i> Phone : +971 4 426 2000 (24 hours) </p>
+            </div>
+          </div><!-- header phone end-->
+          <!-- header social media -->
+          <!-- The element takes up halves of its parent container. -->
 
-							<div class="uk-grid">
-								<!-- header phone -->
-								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
-									<div class="impx-top-phone">
-										<p><i class="fa fa-phone"></i> Phone : +971 4 426 2000 (24 hours) </p>
-									</div>
-								</div><!-- header phone end-->
-								<!-- header social media -->
-								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
-									<div class="impx-top-social">
-										<ul>
-											<li><a href="https://www.facebook.com/atlantisthepalm"><i class="fa fa-facebook-f"></i>Facebook</a></li>
-											<li><a href="https://www.instagram.com/atlantisthepalm/"><i class="fa fa-instagram"></i>Instagram</a></li>
-											<li><a href="https://twitter.com/Atlantis"><i class="fa fa-twitter"></i>Twitter</a></li>
-										</ul>
-									</div>
-								</div><!-- header social media end -->
-							</div>
+          <div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+            <div class="impx-top-social">
+              <ul>
+                <li><a href="https://www.facebook.com/atlantisthepalm"><i class="fa fa-facebook-f"></i>Facebook</a></li>
+                <li><a href="https://www.instagram.com/atlantisthepalm/"><i class="fa fa-instagram"></i>Instagram</a></li>
+                <li><a href="https://twitter.com/Atlantis"><i class="fa fa-twitter"></i>Twitter</a></li>
+              </ul>
+            </div>
+          </div><!-- header social media end -->
+        </div>
 
-						</div>
-					</div>
+      </div>
+    </div>
 
-					<!-- Top Header End -->
-					<div class="uk-container uk-container-expand">
-						<div data-uk-grid>
+    <!-- Top Header End -->
+    <!-- block element to give it a max-width and wrap the main content  + limit the container width-->
 
-							<!-- Header Logo -->
-							<div class="uk-width-auto">
-								<div class="impx-logo">
-									<a href="index.html"><img src="images/logo.png" class="" alt="Logo"></a>
-								</div>
-							</div>
-							<!-- Header Logo End-->
-							<!-- Header Navigation -->
-							<div class="uk-width-expand uk-position-relative">
-								<nav class="uk-navbar-container uk-navbar-transparent uk-visible@s uk-visible@m" data-uk-navbar>
-									<div class="uk-navbar-right impx-navbar-right">
-	        							<ul class="uk-navbar-nav impx-nav style2">
-											<!-- Navigation Items -->
-									    	<li >
-								    			<a href="index.html" class="uk-navbar-nav-subtitle"><div>Home<div class="uk-navbar-subtitle">Welcome</div></div></a>
-									    	</li>
-									    	<li>
-									        	<a href="rooms.html" class="uk-navbar-nav-subtitle"><div>Rooms<div class="uk-navbar-subtitle">Our Best Suites</div></div></a>
-									        </li>
-									        <li class="uk-active"><a href="restaurant.html"><div>Restaurant<div class="uk-navbar-subtitle">In-house Restaurant</div></div></a></li>
-											 <li><a href="about.html"><div>About Us<div class="uk-navbar-subtitle">Info About Us</div></div></a></li>
-									        <li><a href="contact.html" class="uk-navbar-nav-subtitle"><div>Contact<div class="uk-navbar-subtitle">Get in Touch</div></div></a></li>
-									    </ul>
-									    <!-- Navigation Items End -->
-									</div>
-								</nav>
+    <div class="uk-container uk-container-expand">
+      <div data-uk-grid>
+
+        <!-- Header Logo -->
+        <!-- The item expands only to the width of its own content. -->
+        <div class="uk-width-auto">
+          <div class="impx-logo">
+            <a href="index.html"><img src="images/logo.png" class="" alt="Logo"></a>
+          </div>
+        </div>
+        <!-- Header Logo End-->
+        <!-- Header Navigation -->
+        <!--relative positioning. -->
+        <div class="uk-width-expand uk-position-relative">
+          <!-- same <nav> element + Transparent modifier  + Only device widths of 640px and larger.-->
+          <nav class="uk-navbar-container uk-navbar-transparent uk-visible@s uk-visible@m" data-uk-navbar>
+            <!-- align the navigation -->
+            <div class="uk-navbar-right impx-navbar-right">
+              <!-- to create the navigation -->
+                  <ul class="uk-navbar-nav impx-nav style2">
+                <!-- Navigation Items -->
+                <!--  indicate an active menu item-->
+                  <li >
+                    <!-- Indicate that it has a subtitle. -->
+                    <a href="index.html" class="uk-navbar-nav-subtitle"><div>Home<div class="uk-navbar-subtitle">Welcome</div></div></a>
+                  </li>
+                  <li>
+                      <!-- Indicate that it has a subtitle. -->
+                      <a href="rooms.html" class="uk-navbar-nav-subtitle"><div>Rooms<div class="uk-navbar-subtitle">Our Best Suites</div></div></a>
+                    </li>
+                      <!-- Indicate that it has a subtitle. -->
+                    <li class="uk-active"><a href="restaurant.html"><div>Restaurant<div class="uk-navbar-subtitle">In-house Restaurant</div></div></a></li>
+                      <!-- Indicate that it has a subtitle. -->
+                 <li ><a href="about.html"><div>About Us<div class="uk-navbar-subtitle">Info About Us</div></div></a></li>
+                   <!-- Indicate that it has a subtitle. -->
+                    <li><a href="contact.html" class="uk-navbar-nav-subtitle"><div>Contact<div class="uk-navbar-subtitle">Get in Touch</div></div></a></li>
+                </ul>
+                <!-- Navigation Items End -->
+            </div>
+          </nav>
 							</div>
 							<!-- Header Navigation End -->
 						</div>
