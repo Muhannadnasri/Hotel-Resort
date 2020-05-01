@@ -1,7 +1,4 @@
-/* ------------------------------------------------------------------
- * CopyRight       : MuhannadNasri 15374
- * ------------------------------------------------------------------ */
-/* [  Typhography  ] */
+
 body {
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 15px;
@@ -10,7 +7,7 @@ body {
     color: #5f5f5f;
     background-color: #fafafa;
 }
-/* [ Paragraph ] */
+
 p {
 	margin-bottom: 20px;
 }
@@ -53,7 +50,7 @@ blockquote p {
   font-size: 0.675rem;
 }
 
-/* [ Link ] */
+
 a,
 .uk-link {
 	color: #31a9a9;
@@ -63,7 +60,7 @@ a:hover,
 	color: #333333;
 	text-decoration: none;
 }
-/* [ Heading ] */
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Lato', Arial, sans-serif;
 	color: #3f3f3f;
@@ -111,7 +108,7 @@ h6.uk-article-title  {
 .uk-heading-line.line-light > :after {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-/* [ Text Color ] */
+
 .impx-text-aqua {
 	color: #31a9a9 !important;
 }
@@ -131,7 +128,7 @@ h6.uk-article-title  {
 	color: rgba(255, 255, 255, 0.8) !important;
 }
 
-/* [ Background Color ] */
+
 .bg-color-white {
 	background-color: rgba(255, 255, 255, 1.0) !important;
 }
@@ -140,13 +137,9 @@ h6.uk-article-title  {
 	background-color: #31a9a9 !important;
 }
 
-/* Container */
-
-/* [ Margin ] */
 .no-margin {
 	margin: 0px !important;
 }
-/* [ Padding ] */
 
 
 .impx-padding-medium {
@@ -165,7 +158,7 @@ h6.uk-article-title  {
 	padding-bottom: 30px;
 }
 
-/* [ Overlay ] */
+
 .impx-overlay {
 	position: absolute;
 	top: 0;
@@ -293,15 +286,10 @@ h6.uk-article-title  {
     line-height: 1.3;
     font-size: .775rem;
 }
-/* [ Background Pattern ] */
 .pattern-1 {
 	background-image: url('../images/pattern/transparent-flower12.png');
 	background-repeat: repeat;
 }
-
-
-
-/* [ Box Color ] */
 .color1 {
 	background-color: #c29336;
 }
@@ -320,7 +308,6 @@ h6.uk-article-title  {
 .color6 {
 	background-color: #9C8965;
 }
-/* [  Background Image ] */
 
 .bg-img3 {
 	background-image: url('../images/background/happy3.jpg');
@@ -330,7 +317,6 @@ h6.uk-article-title  {
 	background-attachment: scroll;
 }
 
-/* [ Accordion ] */
 .uk-accordion-title {
     font-size: 18px;
     margin-bottom: -15px;
@@ -345,7 +331,6 @@ h6.uk-article-title  {
     background-color: #ffffff;
 }
 
-/*[  Button ] */
 .impx-button {
 	padding-top: 3px;
 	font-weight: 400;
@@ -355,13 +340,8 @@ h6.uk-article-title  {
 	border: none;
 	background-color: #dadada;
 }
-.impx-button.impx-button-outline.gold {
-	border-color: rgba(217, 164, 85, 1);
-	color: rgba(217, 164, 85, 1);
-}
-
 .impx-button-outline:hover {
-	background-color: transparent;
+	background-color: #3fa8a6;
 	color: #ffffff;
 	opacity: .9;
 }
@@ -370,17 +350,11 @@ h6.uk-article-title  {
 	background-color: rgba(49, 169, 169, 1);
 	color: #ffffff;
 }
-.impx-button.gold {
-	background-color: rgba(217, 164, 85, 1);
-	color: #ffffff;
-}
-
 
 .impx-button-rounded {
 	border-radius: 20px;
 }
 
-/* [ List ] */
 
 ol,ul {
 	padding-left: 22px;
@@ -402,14 +376,11 @@ ul.impx-list {
 .uk-list.impx-list.uk-list-large > li > ul {
   margin-top: 8px;
 }
-/* Form */
 .uk-input:focus,
 .uk-select:focus,
 .uk-textarea:focus {
 	border-color: #31a9a9;
 }
-
-/* Header */
 .impx-top-header {
 	height: 32px;
 	line-height: 32px;
@@ -460,9 +431,6 @@ ul.impx-list {
 	font-size: 13px;
 	font-weight: 300;
 }
-
-
-/* Nav Menu */
 .impx-menu-wrapper {
 	padding: 14px 0px 6px;
 	background-color: #ffffff;
@@ -675,7 +643,7 @@ ul.impx-list {
     left: 153px;
 }
 
-/* Logo */
+
 .impx-logo {
 	display: block;
 	margin: 0px auto;
@@ -696,8 +664,6 @@ ul.impx-list {
 	margin-right: 0;
 	margin-left: 0;
 }
-
-/* Slideshow */
 .impx-slide-container {
 	height: 640px;
 	position: relative;
@@ -970,8 +936,6 @@ ul.impx-list {
 .slide-form-section.hp2 {
     margin-top: -110px;
 }
-
-/* Page Heading */
 .impx-page-heading {
 	height: 360px;
 	max-height: 360px;
@@ -996,26 +960,7 @@ ul.impx-list {
 	background-repeat: no-repeat;
 	background-position: center center
 }
-.impx-page-heading.testimonial {
-	background-image: url('../images/page-heading/testimonial.jpg');
-	background-repeat: no-repeat;
-	background-position: center center
-}
-.impx-page-heading.blog {
-	background-image: url('../images/page-heading/blog.jpg');
-	background-repeat: no-repeat;
-	background-position: center center
-}
-.impx-page-heading.gallery {
-	background-image: url('../images/page-heading/gallery.jpg');
-	background-repeat: no-repeat;
-	background-position: center center
-}
-.impx-page-heading.contact {
-	background-image: url('../images/page-heading/contact.html');
-	background-repeat: no-repeat;
-	background-position: center center
-}
+
 .impx-page-heading .page-title {
 	z-index: 2;
 	top: 260px;
@@ -1029,7 +974,7 @@ ul.impx-list {
 	background-image: url('../images/background/background-13.jpg');
 	background-repeat: no-repeat;
 }
-/* Content */
+
 .impx-content{
 	position: relative;
 	margin-top: -60px;
@@ -1041,7 +986,7 @@ ul.impx-list {
 .impx-content.hp3 {
 	margin-top: -40px;
 }
-/* Services List */
+
 .impx-services {
 	padding-bottom: 100px;
 	position: relative;
@@ -1256,9 +1201,8 @@ ul.impx-list {
 .impx-hp-booking-form button {
 	padding-left: 14px;
 	padding-right: 14px;
-	background: #f857a6;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #f857a6;
+	background: linear-gradient(to right, #ff5858, #f857a6);
 	color: #ffffff;
 	font-family: 'Poppins', Arial, sans-serif;
 	text-transform: uppercase;
@@ -1279,7 +1223,7 @@ ul.impx-list {
 	background: rgba(0, 0, 0, 0.7);
 }
 
-/* Features Item */
+
 .impx-feature-item::before,
 .impx-feature-item::after {
 	position: absolute;
@@ -1314,7 +1258,7 @@ ul.impx-list {
 	right: 30px;
 	z-index: 1;
 }
-/* Rooms List */
+
 .impx-section-rooms {
 	z-index: 2;
 	height: 470px;
@@ -1422,7 +1366,7 @@ ul.impx-list {
 }
 
 
-/* Features Tab */
+
 .impx-features-tab {
 	position: relative;
 	margin-top: 0px;
@@ -1431,7 +1375,7 @@ ul.impx-list {
 .impx-features-tab .uk-tab::before {
 	border: none;
 }
-/* Contact Section */
+
 .impx-contact {
 	height: 315px;
 	position: relative;
@@ -1465,7 +1409,7 @@ i.icon-bg {
     color: #f00;
 }
 
-/* [ 2.1.2. Menu Carousel ] */
+
 .impx-menu-carousel {
 	background-image: url('../images/background/background-11.jpg');
 	background-repeat: no-repeat
@@ -1553,7 +1497,7 @@ i.icon-bg {
 	bottom: -7px;
 }
 
-/* Footer */
+
 #impx-footer {
 	background-color: #282828;
 }
